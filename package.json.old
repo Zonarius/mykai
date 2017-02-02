@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/request": "^0.0.39"
+  },
+  "dependencies": {
+    "pdf2json": "^1.1.7",
+    "scrape-it": "^3.2.2"
+  }
+}

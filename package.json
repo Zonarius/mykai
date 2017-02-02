@@ -1,0 +1,35 @@
+{
+  "name": "mykai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/lodash": "^4.14.52",
+    "@types/node": "^7.0.4",
+    "@types/request": "^0.0.39",
+    "@types/winston": "^2.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "log": "^1.4.0",
+    "logging": "^2.0.21",
+    "pdf2json": "^1.1.7",
+    "request": "^2.79.0",
+    "scrape-it": "^3.2.2",
+    "winston": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zonarius/mykai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zonarius/mykai/issues"
+  },
+  "homepage": "https://github.com/Zonarius/mykai#readme",
+  "scripts": {
+    "start": "tsc && node ./build/index.js"
+  }
+}
